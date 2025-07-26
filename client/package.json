@@ -2,15 +2,15 @@
   "name": "campus-link",
   "private": true,
   "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "start": "vite preview --port 3000",
-    "test": "vitest"
-  },
+  "type": "module", 
+    "scripts": {
+      "dev": "vite",
+      "build": "tsc -b && vite build",
+      "preview": "vite preview",
+      "start": "vite preview --port 3000"
+    }
+  ,
+  
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
