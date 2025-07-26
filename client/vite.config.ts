@@ -15,6 +15,11 @@ export default defineConfig({
       }
     }
   },
+  resolve: {
+    alias: {
+      'node:async_hooks': false
+    }
+  },
   server: {
     port: 3000,
     open: true
